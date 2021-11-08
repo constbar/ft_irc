@@ -104,14 +104,12 @@ params: `[<quit message>]`
 used to terminate the connection to the server. the server should end the connection with the client when it sees the sent message.
 
 
-<!-- ## development team
-[ngamora](https://github.com/zagaynov-andrew)
-
-[mteressa](https://github.com/Fkhalilullin)
-
-[constbar](https://github.com/constbar) -->
-
-
-
 
 <!-- _CAP(msg, *user); ????? what is it ADD bOT -->
+
+
+| PRIVMSG | ` <receiver>{,<receiver>} ` ` <text to be sent> ` | used for private correspondence between users. also exists the ability to send messages to channels. |   |   |
+|---------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------:|---|---|
+|         |                                                     |                                                                                                      |   |   |
+|         |                                                     |                                                                                                      |   |   |
+|         |                                                     |                                                                                                      |   |   |
