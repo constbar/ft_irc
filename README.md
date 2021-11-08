@@ -28,7 +28,7 @@ params: `<password>`
 
 used to set up a 'password connection'. a password must be set before any attempt.
 
-### NICK
+#### NICK
 params: `<nickname>`
 
 used to assign an nickname to the user or change the previous one. there can be no two identical nicknames on the server.
