@@ -20,7 +20,7 @@ example:
 **to launch the client:**
 ```
 cd client && make
-./client <ip address> <port> <nickname>
+./client <ip> <port> <nickname>
 ```
 example:
 ```
