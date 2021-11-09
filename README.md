@@ -106,10 +106,10 @@ used to terminate the connection to the server. the server should end the connec
 
 
 <!-- _CAP(msg, *user); ????? what is it ADD bOT -->
-
-
-| PRIVMSG | ` <receiver>{,<receiver>} ` ` <text to be sent> ` | used for private correspondence between users. also exists the ability to send messages to channels. |   |   |
-|---------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------:|---|---|
-|         |                                                     |                                                                                                      |   |   |
-|         |                                                     |                                                                                                      |   |   |
-|         |                                                     |                                                                                                      |   |   |
+| command | params | description |
+|---|---|---|
+| PASS | `<password>` | used to set up a 'password connection'. a password must be set before any attempt. |
+| NICK | `<nickname>` | used to assign an nickname to the user or change the previous one. there can be no two identical nicknames on the server. |
+| USER | `<username>` `<hostname>` `<servername>` `<realname>` | used at the beginning of a connection to specify the username, hostname, server name and real name of the new user. |
+| OPER | `<user>` `<password>` | used to take operator rights. parameters are used to identify the user. |
+| QUIT | `[<quit message>]` | used to terminate the connection to the server. the server should end the connection with the client when it sees the sent message. |
