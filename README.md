@@ -24,7 +24,7 @@ out irc server works through the KVIrc client too.
 
 ![](kvirc.gif)
 
-also there you can run our bot and transfer files between clients. the truth is, now the bot can only send memes in response, but you can do any functionality for it.
+also there you can run our bot and transfer files between clients. the truth is, now the bot can only send memes in response, but it is possible to make any functionality for it.
 
 ### implemented commands
 
