@@ -11,12 +11,20 @@ the server does not support server-to-server communication.
 **to launch the server:**
 ```
 make
+./ircserv <port> <password>
+```
+example:
+```
 ./ircserv 6667 1234
 ```
 **to launch the client:**
 ```
 cd client && make
-./client 127.0.0.1 6667 <nickname>
+./client <ip address> <port> <nickname>
+```
+example:
+```
+./client 127.0.0.1 6667 jack_sparrow
 ```
 ![](client.gif)
 
