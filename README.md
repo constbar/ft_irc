@@ -15,9 +15,16 @@ make
 ```
 **to launch the client:**
 ```
-nc 127.0.0.1 6667
-HERE SHOULD BE \r\n					!!!
+cd client && make
+./client 127.0.0.1 6667 <nickname>
 ```
+![](client.gif)
+
+out irc server works through the KVIrc client too.
+
+![](kvirc.gif)
+
+also there you can run our bot and transfer files between clients. the truth is, now the bot can only send memes in response, but you can do any functionality for it.
 
 ### implemented commands
 
