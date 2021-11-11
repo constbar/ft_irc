@@ -24,7 +24,7 @@ cd client && make
 ```
 example:
 ```
-./client 127.0.0.1 6667 jack_sparrow
+./client 127.0.0.1 6667 gandalf
 ```
 ![](client.gif)
 
