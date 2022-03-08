@@ -1,6 +1,6 @@
 ## ft_irc
 
-team project of 42 school where it is necessary to implement own simple IRC server, based on the [RFC 1459](https://datatracker.ietf.org/doc/html/rfc1459) standard. the project was made by [ngamora](https://github.com/zagaynov-andrew), [mteressa](https://github.com/Fkhalilullin) and [constbar](https://github.com/constbar).
+team project of École 42 where it is necessary to implement own simple IRC server, based on the [RFC 1459](https://datatracker.ietf.org/doc/html/rfc1459) standard. the project was made by [ngamora](https://github.com/zagaynov-andrew), [mteressa](https://github.com/Fkhalilullin) and [constbar](https://github.com/constbar).
 
 Internet Relay Chat is a legacy application layer protocol for real-time messaging. designed for group communication, also allows you to communicate through private messages and share files. on the basis of IRC, many messengers were later developed.
 
